@@ -5,6 +5,8 @@ date: "2020-08-18"
 
 First blog page to test out gatsby posts using markdown.
 
+![ekport](./ekport-thumbnail.jpg)
+
 ## Topics Covered
 
 1. Gatsby
