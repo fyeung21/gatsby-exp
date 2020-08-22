@@ -11,6 +11,13 @@ module.exports = {
     author: "Fiona Y."
   },
   plugins: [
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: "rwnhshc3oics",
+        accessToken: "DB6L-xJUIuEHJIHq7RvIAYH-e8mrAYJ-fdK1zkY-ZtE"
+      }
+    },
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
