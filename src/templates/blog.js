@@ -29,7 +29,7 @@ const Blog = ({ data }) => {
         <Layout>
             <h1>{data.contentfulBlogPost.title}</h1>
             <p>{data.contentfulBlogPost.publishedDate}</p>
-            {documentToReactComponents(data.contentfulBlogPost.body.json)}
+            {documentToReactComponents(data.contentfulBlogPost.body.json, options)}
         </Layout>
     )
 }
